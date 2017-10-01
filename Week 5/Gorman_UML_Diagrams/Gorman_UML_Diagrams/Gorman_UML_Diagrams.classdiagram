@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="1adb7246-a8f8-42fd-94e8-fb22e1ed21e4" name="Gorman_UML_Diagrams" linkedPackageId="4c9b8b7c-5e93-46e0-aa61-b83251d10197" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="67fb7e1c-1822-4da1-8f67-2aa2057c44e8">
+      <profileInstance Id="a2b5b9a0-028c-40f9-9ead-5135fd19054b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="936c868d-736a-4934-9c01-8f3c364cc61e">
+      <profileInstance Id="a912722b-25f3-440d-b82b-bc9c7f5f563e" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="24a1a1ee-2139-4bd7-90e8-2cdb079e6255" name="Employee" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="94bdb60c-9890-4974-bfff-a0e49bbf088e" />
+        <ownedAttributesInternal>
+          <property Id="ffd50308-819e-4779-a8e6-09e27c1dbc80" name="employeeID" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ccabf58b-3fa7-484a-b70f-44edc9064ed2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d0c90bcf-af9e-4cd4-9edb-fda1baac3525" LastKnownName="long" />
+            </type_NamedElement>
+          </property>
+          <property Id="f0ac0cad-a0ec-435c-9076-29c4b6f5aeef" name="employeeShift" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="be849b72-4674-42b6-8ded-eb6f4a21f38f" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="27d076cf-b440-45fb-ba27-f8c9bc357395" LastKnownName="int" />
+            </type_NamedElement>
+          </property>
+          <property Id="9925ced4-5e65-4024-bc88-5a87c162ba3c" name="employeeName" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3a42db15-079e-45a6-8fd6-8ff4a5d20967" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="205fd272-c449-449d-b811-c4250bf1f727" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="4bc78c6d-2667-4ef1-9826-3faabf0ad964" name="getEmployeeID" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="d5c8bd3e-bf82-4ced-886d-698c353294c6" />
+          </operation>
+          <operation Id="879af2eb-7cad-4a2b-b664-b37d0cc43bf7" name="getEmployeeName" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="b0a9e9b2-aaf2-4418-8a8e-4f6347eb4e0d" />
+          </operation>
+          <operation Id="59552c50-9c76-4ad8-9b5e-80d3ef6d0ec3" name="getEmployeeShift" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="44cfc611-f66d-415e-a32a-0e2a4e7f6f93" />
+          </operation>
+          <operation Id="d3e21bef-46d4-479a-824c-855909eb3319" name="setEmployeeName" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="5c1f852c-6b55-4e68-b9b9-0a8ee3a3f403" />
+          </operation>
+          <operation Id="a07a1320-d39d-4235-8f1c-c78e80cbf4e7" name="setEmployeeID" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a1b9c6f2-ac0e-4b52-a7a9-69db2b7b60d4" />
+          </operation>
+          <operation Id="ae51819d-af6a-482d-8ab7-9bc515ef7d9c" name="setEmployeeShift" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ba213308-68a1-471e-a30b-ff3ce8cae513" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="d0c90bcf-af9e-4cd4-9edb-fda1baac3525" name="long" isAbstract="false" isLeaf="false" cachedFullName="long">
+        <elementDefinition Id="4045c029-ff5b-45d7-9f8c-0335d5763822" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="27d076cf-b440-45fb-ba27-f8c9bc357395" name="int" isAbstract="false" isLeaf="false" cachedFullName="int">
+        <elementDefinition Id="35252ea2-3603-4392-bbdc-327c03aaf1f3" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="205fd272-c449-449d-b811-c4250bf1f727" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="4c9b8b7c-5e93-46e0-aa61-b83251d10197" name="Gorman_UML_Diagrams">
+    <elementDefinition Id="d2bbc999-f375-4be8-b60f-aa82b14cf555" />
+  </package>
+</logicalClassDesignerModel>
